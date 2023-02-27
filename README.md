@@ -1,4 +1,4 @@
-# nosql-challenge
+# Food Hygiene Ratings Analysis for Eat Safe Love Magazine
 
 ## Instructions
 
