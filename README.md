@@ -1,10 +1,13 @@
-# Food Hygiene Ratings Analysis for Eat Safe Love Magazine
+UK Food Hygiene Ratings Analysis using MongoDB
 
-## Instructions
+This repository contains two Jupyter notebooks that demonstrate the process of importing, updating, and analyzing data from the UK Food Standards Agency. The data includes food hygiene ratings for various establishments in the United Kingdom. The analysis is conducted using MongoDB and Python.
 
-The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, Eat Safe, Love, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
+The project is divided into two main parts:
 
-## References
+1. NoSQL_setup_starter.ipynb: This notebook sets up the database, imports the data, and makes updates to the database according to the requirements of a food magazine.
 
-UK Food Standards AgencyLinks to an external site. (2022 UK food hygiene rating data API. https://ratings.food.gov.uk/open-data/en-GBLinks to an external site.. Contains public sector information licensed under the Open Government Licence v3.0Links to an external site.
-Accessed Sept 9, 2022 and Sept 12, 2022 with the establishment settings as follows: longitude=51.5072, latitude=-0.1276, maxdistancelimit=4567, pagesize=10000, sortoptionkey=distance, pagenumber=(1,2,3,4,5,6,7,8).
+2. NoSQL_analysis_starter.ipynb: This notebook performs exploratory analysis on the data using various queries, aggregations, and data manipulation techniques to answer specific questions related to the hygiene ratings of establishments.
+
+The data for this project is provided in the Resources folder, which contains the establishments.json file.
+
+This project demonstrates the use of MongoDB as a NoSQL database and the power of PyMongo for connecting, querying, and updating data within the database.
